@@ -7,6 +7,7 @@ namespace ChefNDish.Models
     {
         [Key]
         public int DishID { get; set; }
+
         [Required(ErrorMessage = "is required")]
         [MinLength(2, ErrorMessage = "must be at least 2 characters")]
         [Display(Name = "Dish Name")]
