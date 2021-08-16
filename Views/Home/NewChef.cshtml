@@ -1,0 +1,16 @@
+@model Chef
+
+<div class="text-center">
+    <h1 class="display-4">Welcome @ViewBag.Chef!</h1>
+    <form asp-controller="Home" asp-action="AddChef" method="POST">
+        <div>
+            <label asp-for="ChefName">Chef's Name: </label>
+            <input asp-for="ChefName" />
+        </div>
+        <div>
+            <label asp-for="ChefAge">Recipe Age: </label>
+            <input asp-for="ChefAge" />
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>

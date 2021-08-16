@@ -1,8 +1,32 @@
-﻿@{
+﻿@model Chef
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="text-center" style="display: flex; justify-content: space-between;">
+    <div style="margin-left: 200px; border-bottom: 3px solid black; width: 600px; padding-bottom: 15px;">
+        <h1 class="display-4">
+            Chefs | <a href="">Dishes</a></h1>
+        <h4 style="flex-direction: column;">Check out our roster of Great Chefs!</h4>
+    </div>
+    <p><a href="">Add a dish</a></p>
+    <hr>
 </div>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col"># of Dishes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>@Model.ChefName</td>
+            <td>@Model.ChefAge</td>
+            <td>@Model.ChefId</td>
+        </tr>
+    </tbody>
+</table>

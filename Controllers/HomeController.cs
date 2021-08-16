@@ -6,17 +6,18 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ChefNDish.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ChefNDish.Controllers
 {
     public class HomeController : Controller
     {
 
-        private ChefNDishContext db;
+        private ChefNDishContext dbContext;
 
         public HomeController(ChefNDishContext context)
         {
-            db = context;
+            dbContext = context;
         }
 
         [HttpGet("")]
@@ -25,9 +26,13 @@ namespace ChefNDish.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        [HttpPost("AddChef")]
+        public IActionResult AddChef(Chef newChef)
         {
-            return View();
+            DbContext.Add(newChef);
+            ViewBag.Chef = newChef;
+            dbContext.SaveChanges();
+            return View("newChef", newChef);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
