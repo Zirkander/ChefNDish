@@ -1,5 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
 namespace ChefNDish.Models
 {
@@ -17,5 +18,7 @@ namespace ChefNDish.Models
         public int ChefAge { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         public DateTime UpdatedAt { get; set; } = DateTime.Now;
+
+        public List<Dish> CreatedDishes { get; set; }
     }
 }

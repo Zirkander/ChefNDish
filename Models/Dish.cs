@@ -1,5 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 
 namespace ChefNDish.Models
 {
@@ -22,5 +24,8 @@ namespace ChefNDish.Models
         public int Calories { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         public DateTime UpdatedAt { get; set; } = DateTime.Now;
+
+        public int ChefId { get; set; }
+        public Chef DishChef { get; set; }
     }
 }

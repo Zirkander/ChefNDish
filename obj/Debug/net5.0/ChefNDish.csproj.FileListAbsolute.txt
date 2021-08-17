@@ -9,16 +9,12 @@ E:\Coding Dojo\C#\Asp\ChefNDish\bin\Debug\net5.0\ref\ChefNDish.dll
 E:\Coding Dojo\C#\Asp\ChefNDish\bin\Debug\net5.0\ChefNDish.pdb
 E:\Coding Dojo\C#\Asp\ChefNDish\bin\Debug\net5.0\ChefNDish.Views.dll
 E:\Coding Dojo\C#\Asp\ChefNDish\bin\Debug\net5.0\ChefNDish.Views.pdb
-E:\Coding Dojo\C#\Asp\ChefNDish\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
-E:\Coding Dojo\C#\Asp\ChefNDish\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
 E:\Coding Dojo\C#\Asp\ChefNDish\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 E:\Coding Dojo\C#\Asp\ChefNDish\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 E:\Coding Dojo\C#\Asp\ChefNDish\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 E:\Coding Dojo\C#\Asp\ChefNDish\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 E:\Coding Dojo\C#\Asp\ChefNDish\bin\Debug\net5.0\MySqlConnector.dll
-E:\Coding Dojo\C#\Asp\ChefNDish\bin\Debug\net5.0\Newtonsoft.Json.dll
 E:\Coding Dojo\C#\Asp\ChefNDish\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
-E:\Coding Dojo\C#\Asp\ChefNDish\bin\Debug\net5.0\Pomelo.JsonObject.dll
 E:\Coding Dojo\C#\Asp\ChefNDish\obj\Debug\net5.0\ChefNDish.csproj.AssemblyReference.cache
 E:\Coding Dojo\C#\Asp\ChefNDish\obj\Debug\net5.0\ChefNDish.GeneratedMSBuildEditorConfig.editorconfig
 E:\Coding Dojo\C#\Asp\ChefNDish\obj\Debug\net5.0\ChefNDish.AssemblyInfoInputs.cache
@@ -33,7 +29,6 @@ E:\Coding Dojo\C#\Asp\ChefNDish\obj\Debug\net5.0\scopedcss\bundle\ChefNDish.styl
 E:\Coding Dojo\C#\Asp\ChefNDish\obj\Debug\net5.0\ChefNDish.TagHelpers.input.cache
 E:\Coding Dojo\C#\Asp\ChefNDish\obj\Debug\net5.0\ChefNDish.TagHelpers.output.cache
 E:\Coding Dojo\C#\Asp\ChefNDish\obj\Debug\net5.0\ChefNDish.RazorCoreGenerate.cache
-E:\Coding Dojo\C#\Asp\ChefNDish\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 E:\Coding Dojo\C#\Asp\ChefNDish\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 E:\Coding Dojo\C#\Asp\ChefNDish\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 E:\Coding Dojo\C#\Asp\ChefNDish\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -48,3 +43,11 @@ E:\Coding Dojo\C#\Asp\ChefNDish\obj\Debug\net5.0\ChefNDish.dll
 E:\Coding Dojo\C#\Asp\ChefNDish\obj\Debug\net5.0\ref\ChefNDish.dll
 E:\Coding Dojo\C#\Asp\ChefNDish\obj\Debug\net5.0\ChefNDish.pdb
 E:\Coding Dojo\C#\Asp\ChefNDish\obj\Debug\net5.0\ChefNDish.genruntimeconfig.cache
+E:\Coding Dojo\C#\Asp\ChefNDish\obj\Debug\net5.0\Razor\Views\Chef\NewChef.cshtml.g.cs
+E:\Coding Dojo\C#\Asp\ChefNDish\obj\Debug\net5.0\Razor\Views\Chef\Index.cshtml.g.cs
+E:\Coding Dojo\C#\Asp\ChefNDish\obj\Debug\net5.0\Razor\Views\Dish\NewDish.cshtml.g.cs
+E:\Coding Dojo\C#\Asp\ChefNDish\obj\Debug\net5.0\Razor\Views\Dish\Dishs.cshtml.g.cs
+E:\Coding Dojo\C#\Asp\ChefNDish\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+E:\Coding Dojo\C#\Asp\ChefNDish\bin\Debug\net5.0\Humanizer.dll
+E:\Coding Dojo\C#\Asp\ChefNDish\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Coding Dojo\C#\Asp\ChefNDish\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll

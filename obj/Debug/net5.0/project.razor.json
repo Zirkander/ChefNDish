@@ -15624,6 +15624,21 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\Coding Dojo\\C#\\Asp\\ChefNDish\\Views\\Chef\\Index.cshtml",
+      "TargetPath": "Views\\Chef\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Coding Dojo\\C#\\Asp\\ChefNDish\\Views\\Dish\\Dishs.cshtml",
+      "TargetPath": "Views\\Dish\\Dishs.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Coding Dojo\\C#\\Asp\\ChefNDish\\Views\\Chef\\NewChef.cshtml",
+      "TargetPath": "Views\\Chef\\NewChef.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\Coding Dojo\\C#\\Asp\\ChefNDish\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -15644,13 +15659,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Coding Dojo\\C#\\Asp\\ChefNDish\\Views\\Home\\NewChef.cshtml",
-      "TargetPath": "Views\\Home\\NewChef.cshtml",
+      "FilePath": "e:\\Coding Dojo\\C#\\Asp\\ChefNDish\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Coding Dojo\\C#\\Asp\\ChefNDish\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "e:\\Coding Dojo\\C#\\Asp\\ChefNDish\\Views\\Dish\\NewDish.cshtml",
+      "TargetPath": "Views\\Dish\\NewDish.cshtml",
       "FileKind": "mvc"
     },
     {

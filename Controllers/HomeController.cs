@@ -13,26 +13,16 @@ namespace ChefNDish.Controllers
     public class HomeController : Controller
     {
 
-        private ChefNDishContext dbContext;
+        private ChefNDishContext db;
 
         public HomeController(ChefNDishContext context)
         {
-            dbContext = context;
+            db = context;
         }
 
-        [HttpGet("")]
         public IActionResult Index()
         {
-            return View();
-        }
-
-        [HttpPost("AddChef")]
-        public IActionResult AddChef(Chef newChef)
-        {
-            DbContext.Add(newChef);
-            ViewBag.Chef = newChef;
-            dbContext.SaveChanges();
-            return View("newChef", newChef);
+            return View("Index");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

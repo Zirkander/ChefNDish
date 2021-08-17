@@ -14,8 +14,8 @@ namespace ChefNDish.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.5")
-                .HasAnnotation("Relational:MaxIdentifierLength", 64);
+                .HasAnnotation("Relational:MaxIdentifierLength", 64)
+                .HasAnnotation("ProductVersion", "5.0.5");
 
             modelBuilder.Entity("ChefNDish.Models.Chef", b =>
                 {
@@ -50,6 +50,9 @@ namespace ChefNDish.Migrations
                     b.Property<int>("Calories")
                         .HasColumnType("int");
 
+                    b.Property<int>("ChefId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime(6)");
 
@@ -65,7 +68,25 @@ namespace ChefNDish.Migrations
 
                     b.HasKey("DishID");
 
+                    b.HasIndex("ChefId");
+
                     b.ToTable("Dishs");
+                });
+
+            modelBuilder.Entity("ChefNDish.Models.Dish", b =>
+                {
+                    b.HasOne("ChefNDish.Models.Chef", "DishChef")
+                        .WithMany("CreatedDishes")
+                        .HasForeignKey("ChefId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("DishChef");
+                });
+
+            modelBuilder.Entity("ChefNDish.Models.Chef", b =>
+                {
+                    b.Navigation("CreatedDishes");
                 });
 #pragma warning restore 612, 618
         }
